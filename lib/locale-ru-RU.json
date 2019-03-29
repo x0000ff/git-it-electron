@@ -1,0 +1,46 @@
+{
+  "n": {
+    ".gitignore": ".gitignore",
+    "repository": "репозиторий",
+    "repositories": "репозитория",
+    "branch": "ветка",
+    "branches": "ветки",
+    "fork": "ответвление",
+    "forks": "ответвления",
+    "request": "запрос",
+    "pull request": "запрос на включение",
+    "pull requests": "запросы на включение",
+    "commit": "коммит",
+    "commits": "коммиты",
+    "upstream": "upstream",
+    "feature": "фича",
+    "status": "статус",
+    "diff": "разница",
+    "readme": "README",
+    "collaborator": "соавтор",
+    "collaborators": "соавторы",
+    "remote": "remote",
+    "remotes": "remotes",
+    "contributing": "contributing",
+    "connections": "connections"
+  },
+  "v": {
+    "add": "add",
+    "fork": "fork",
+    "forked": "forked",
+    "clone": "clone",
+    "push": "push",
+    "close": "close",
+    "pull": "pull",
+    "commit": "commit",
+    "merge": "merge",
+    "merged": "merged",
+    "checkout": "checkout",
+    "stage": "stage"
+  },
+  "adj": {
+    "merged": "merged",
+    "forked": "forked",
+    "remote": "remote"
+  }
+}
