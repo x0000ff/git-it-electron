@@ -1,70 +1,67 @@
 <div id="challenge-desc" class="chal-goal blue-border border-box">
-    <p>Install Git on your computer and configure your name and email.</p>
+    <p>Установить Git на твой компьютер и настроить имя и электронную почту.</p>
 </div>
 
 <div class="chal-background light-blue solid-box">
     <h2>Git</h2>
-    <p>Git is free <strong>open source software</strong> (the <a href="https://github.com/git/git">source code is
-        public</a>) written by Linus Torvalds who also wrote the Linux operating system's kernel. </p>
-    <p>Git is a program for keeping track of changes over time, known in programming as <strong>version control</strong>.
-        If you've used a track changes feature in a text editing software then you're already familiar with the concept!
-    </p>
+    <p>Git это бесплатное <strong>открытое программное обеспечение</strong> (<a href="https://github.com/git/git">исходный код доступен публично</a>),
+      написанное Линусом Торвальдсом (Linus Torvalds), который также написал ядро операционной системы Linux.</p>
+      <p>Git это программа для слежения за изменениями. В программировании это называется <strong>контролем версий</strong>.
+          Если вы уже работали в каком-то текстовом редакторе с поддержкой контроля за изменениями, то вы уже знакомы с этим понятием!
+      </p>
 </div>
 
 <div class="chal-step blue-border border-box">
-    <h3>Install Git</h3>
-    <p>We recommend installing Git on your computer by downloading the <a href="https://desktop.github.com">GitHub
-        Desktop</a> app. We'll not use the desktop app in Git-it (we're learning terminal!) but it includes Git and is
-        the easiest way to install Git on all platforms in the same way.</p>
+    <h3>Установка Git</h3>
+    <p>Мы рекомендуем установить Git на ваш компьютер посредством установки программы <a href="https://desktop.github.com">GitHub
+        Desktop</a>. Мы не будем использовать эту программу в Git-it (мы учимся работе с Git в терминале!), но GitHub
+            Desktop содержит Git и, это самый простой путь установить Git на любую платформу.</p>
 
     <ul>
-        <li><strong>Windows</strong>: Use the <strong>Git Shell</strong> for your terminal.</li>
-        <li><strong>Mac</strong>: Open GitHub Desktop and from Preferences, select the command line tools install. Use
-            the <strong>terminal</strong> app as your terminal.
+        <li><strong>Windows</strong>: Используй <strong>Git Shell</strong> в Командной строке (cmd).</li>
+        <li><strong>Mac</strong>: Открой GitHub Desktop в в меню выбери пункт <strong>Install Command Line Tool...</strong> для установки инструментов командной строки.
+          Используй <strong>Terminal</strong> или любую другую программу командной строки (например, <a href="https://www.iterm2.com">iTerm2</a>).
         </li>
     </ul>
 
-    <p>Already have Git or not sure? Type <code>git --version</code> in your terminal and if it returns a version number
-        higher than <code>1.7.10</code>, you're set! For more information, visit the <a href="http://git-scm.com">Git
-            website</a>.</p>
+    <p>Не уверен, установлен ли Git? Набери в твоём терминале <code>git --version</code> и, если команда вернёт номер версии <code>1.7.10</code> или выше, то всё уже установлено! Вы можете найти больше информации на <code>1.7.10</code>официальном сайте Git</a>.</p>
 </div>
 
 <div class="chal-background light-blue solid-box">
-    <h2>Git Software</h2>
-    <p>The GitHub Desktop app can do a lot of things with Git but not all, which is why learning the terminal is
-        important. But once you've got that down, you'll be glad to have the desktop app because it organizes your
-        project's information more visually, like the GitHub website.</p>
+    <h2>Программное обеспечение Git</h2>
+    <p>Настольная программа GitHub Desktop может делать многое с Git, но не всё, именно поэтому так важно уметь работать с Git в терминале.
+      Но научившись этому, настольная программа GitHub Desktop вам очень пригодится, потому что она организует и лучше визуализирует информацию ваших проектов, например, так как делает сайт GitHub.</p>
 
-    <p>Git on its own isn't like other programs on your computer. You'll likely not see an icon on your desktop, but it
-        will always be available to you and you'll be able to access it at anytime from your terminal or Git desktop
-        applications.</p>
+    <p>Git сам по себе не похож на обычные программы. Возможно, что вы даже не увидите его иконку на Рабочем столе,
+      но он всегда доступен в терминале или посредством программы GitHub desktop.</p>
+
 </div>
 
 <div class="chal-step blue-border border-box">
-    <h3>Configure Git</h3>
-    <p>Once GitHub Desktop (and therefore Git) is installed, open your <strong>terminal</strong>.
-        You can verify that Git is really there by typing:</p>
+    <h3>Настройка Git</h3>
+    <p>Как толко вы установили GitHub Desktop (и Git вместе с ним), откройте вам <strong>терминал</strong>.
+        Вы модете проверить, что Git действительно доступен выполнив в терминале:</p>
 
     <p><code class="shell">git --version </code></p>
 
-    <p>This will return the version of Git on your computer and look something like this:</p>
+    <p>Эта команда вернёт вам версию Git на вашем компьютере, что-то вроде:</p>
 
     <p><code class="comment">git version 1.9.1</code></p>
 
-    <p>Next, configure Git so it knows to associate your work to you:</p>
-    <p>Set your name:</p>
-    <p><code class="shell">git config --global user.name "Your Name"</code></p>
-    <p>Now set your email:</p>
-    <p><code class="shell">git config --global user.email "youremail@example.com"</code></p>
+    <p>Затем, настроим Git, чтобы он знал что работает с Вами:</p>
+    <p>Настроим Ваше имя:</p>
+    <p><code class="shell">git config --global user.name "Ваше Имя"</code></p>
+    <p>Настроим Вашу электронную почту:</p>
+    <p><code class="shell">git config --global user.email "ваша@почта.com"</code></p>
 
-    <p>You're done with your first challenge! Click the 'Verify' button to check the challenge.</p>
+    <p>Вы закончили первое испытание! Нажмите кнопку 'Verify' для проверки.</p>
+
 </div>
 
 {{{ verify_button }}}
 
 <div class="chal-tip grey-border border-box">
-    <h3>Dollar Signs in Code Documentation</h3>
-    <p>Dollar signs <code>$</code> are often used in programming documentation to signify that the line is <strong>command
-        line</strong> code (see the code snippets above). You don't actually type the <code>$</code> in though, only
-        type what comes after.</p>
+    <h3>Знак доллара в Документации</h3>
+    <p>Знак доллара <code>$</code> часто используется в компьютерной документации, означая, что это команда для <strong>терминала</strong> (смотри примеры выше).
+      Вам не нужно набирать знак доллара <code>$</code>, вводите лишь то, что следует за ним.</p>
 </div>
